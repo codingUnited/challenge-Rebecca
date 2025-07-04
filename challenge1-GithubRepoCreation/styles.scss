@@ -1,0 +1,30 @@
+$cream: #D6BD98;
+$lt_Green: #677D6A;
+$md_Green: #40534C;
+$forestGreen: #1A3636;
+$titleFont: "Joti One", cursive;
+
+
+body{
+  background-color: $forestGreen;
+}
+
+.siteContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  height: 100vh;
+  width: 60%;
+  background-color: $lt_Green;
+}
+
+.mainHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 20px;
+  background-color: $cream;
+  font-family: $titleFont;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #1A3636;
+}
+
+.siteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  height: 100vh;
+  width: 60%;
+  background-color: #677D6A;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 20px;
+  background-color: #D6BD98;
+  font-family: "Joti One", cursive;
+}
+
+/*# sourceMappingURL=styles.css.map */
