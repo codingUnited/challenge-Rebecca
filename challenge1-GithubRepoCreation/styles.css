@@ -1,5 +1,7 @@
 body {
   background-color: #1A3636;
+  /*background-image: url("img/bg_hex.png");*/
+  margin: 0;
 }
 
 .siteContainer {
@@ -12,14 +14,20 @@ body {
   background-color: #677D6A;
 }
 
-.mainHeader {
+.mainContainer {
   display: flex;
+  flex-direction: column;
+  border-radius: 15px;
   justify-content: center;
   align-items: center;
   width: 60%;
   padding: 20px;
   background-color: #D6BD98;
   font-family: "Joti One", cursive;
+}
+
+.bodyText {
+  font-family: "Verdana, Geneva, sans-serif";
 }
 
 /*# sourceMappingURL=styles.css.map */
