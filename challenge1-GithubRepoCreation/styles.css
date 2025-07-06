@@ -1,6 +1,6 @@
 body {
   background-color: #1A3636;
-  /*background-image: url("img/bg_hex.png");*/
+  background-image: url("img/bg_hex.png");
   margin: 0;
 }
 
@@ -11,7 +11,7 @@ body {
   padding-top: 50px;
   height: 100vh;
   width: 60%;
-  background-color: #677D6A;
+  background-color: #40534C;
 }
 
 .mainContainer {

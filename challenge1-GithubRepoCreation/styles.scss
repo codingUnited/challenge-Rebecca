@@ -8,7 +8,7 @@ $bodyFont: "Verdana, Geneva, sans-serif";
 
 body{
   background-color: $forestGreen;
-  /*background-image: url("img/bg_hex.png");*/
+  background-image: url("img/bg_hex.png");
   margin:0;
 }
 
@@ -19,7 +19,7 @@ body{
   padding-top: 50px;
   height: 100vh;
   width: 60%;
-  background-color: $lt_Green;
+  background-color: $md_Green;
 }
 
 .mainContainer{
