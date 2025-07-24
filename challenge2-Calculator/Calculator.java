@@ -27,36 +27,36 @@ public class Calculator {
                 System.out.print("That is not a valid input. Please input numerical digits.\n");
                 input.next();
             }
-        } while(!correctValue);
+       } while(!correctValue);
 
             System.out.print("Select your operation (+, -, *, /): ");
-            String operation = input.next();
+            CalcControls operation = new CalcControls(input.next());
             //Calculator core starting point:
 
-            switch (operation) {
-                case "+":
-                    result = num1 + num2;
+        /*switch (operation) {
+            case "+":
+                result = num1 + num2;
+                System.out.println(result);
+                break;
+            case "-":
+                result = num1 - num2;
+                System.out.println(result);
+                break;
+            case "*":
+                result = num1 * num2;
+                System.out.println(result);
+                break;
+            case "/": //Handles for division by 0
+                if (num2 == 0) {
+                    System.out.print("You cannot divide by zero\n"); //Return user to repeat input numbers (Add in)
+                } else {
+                    result = num1 / num2;
                     System.out.println(result);
-                    break;
-                case "-":
-                    result = num1 - num2;
-                    System.out.println(result);
-                    break;
-                case "*":
-                    result = num1 * num2;
-                    System.out.println(result);
-                    break;
-                case "/": //Handles for division by 0
-                    if (num2 == 0) {
-                        System.out.print("You cannot divide by zero\n"); //Return user to repeat input numbers (Add in)
-                    } else {
-                        result = num1 / num2;
-                        System.out.println(result);
-                    }
-                    break;
-                default: //Do I really need default?
-                    System.out.print("That is not a valid input. Please input numerical digits.");
-            }
+                }
+                break;
+            default: //Do I really need default?
+                System.out.print("That is not a valid input. Please input numerical digits.");
+        }*/
 
         System.out.print("Calculation completed.");
         input.close();
