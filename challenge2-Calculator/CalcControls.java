@@ -5,11 +5,11 @@ public class CalcControls {
     CalcControls(String op){
         switch(op){
             case "+":
-                //result = num1 + num2;
+                result = num1 + num2;
                 System.out.println("+ hit.");
                 break;
             case "-":
-                // result = num1 - num2;
+                //result = num1 - num2;
                 //  System.out.println(result);
                 break;
             case "*":
@@ -29,10 +29,7 @@ public class CalcControls {
         }
     }
     public double getNums(double num1, double num2){
-        return num1+num2;//holder
+        return result; //holder
     }
-
-    
-
 }
 

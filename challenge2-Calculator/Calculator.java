@@ -28,7 +28,8 @@ public class Calculator {
                 input.next();
             }
        } while(!correctValue);
-
+            CalcControls userNums = new CalcControls();
+            userNums.getNums(num1, num2);
             System.out.print("Select your operation (+, -, *, /): ");
             CalcControls operation = new CalcControls(input.next());
             //Calculator core starting point:
